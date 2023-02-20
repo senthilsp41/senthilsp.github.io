@@ -1,0 +1,89 @@
+*{
+    Margin: 0;
+    Padding: 0;
+    Box-Sizing: Border-Box;
+    Font-Family: 'Poppins', Sans-Serif;
+    }
+    Body{
+    Display: Flex;
+    Justify-Content: Center;
+    Align-Items: right;
+    Height: 100vh;
+    margin-bottom:-500px;
+    background-color:black;
+    
+    }
+    .Container1{
+    Width: 300px;
+    Position: Relative;
+    }
+    .Btn1{
+    Width: 100%;
+    Height: 35px;
+    Cursor: Pointer;
+    Position: Relative;
+    Display: Flex;
+    }
+    .Btn1::Before{
+    Content: 'Drop Down';
+    Display: Flex;
+    Align-Items: Center;
+    Width: 50%;
+    Height: 100%;
+    Background: White;
+    Border-Radius: 5px;
+    Box-Shadow: 0 0 10px Rgba(0, 0, 0, 0.062);
+    Border: 2px Solid #FF5F6D;
+    Padding-Left: 1em;
+    Background: Linear-Gradient(To Right, White 80%, #FF5F6D 20%);
+    }
+    .Btn1::After{
+    Content: '\F062';
+    Position: Absolute;
+    Right: 0;
+    Display: Flex;
+    Align-Items: Center;
+    Justify-Content: Center;
+    Font-Family: 'Font Awesome 5 Free';
+    Font-Weight: 700;
+    Width: 20%;
+    Height: 110%;
+    Color: White;
+    Transform: Rotate(180deg);
+    Transition: All .4s;
+    }
+    .Btn1:checked::After{
+    Transform: Rotate(0deg);
+    }
+    .List{
+    Position: Absolute;
+    Margin-Top: 0.5em;
+    Width: 100%;
+    Height: 175px;
+    Clip-Path: Polygon(0 0, 100% 0, 100% 0, 0 0);
+    Display: Flex;
+    Flex-Direction: Column;
+    Transition: All .4s;
+    }
+    Input:checked ~ .List{
+    Clip-Path: None;
+    }
+    .List A{
+    Height: 25%;
+    Display: Flex;
+    Align-Items: Center;
+    Padding: 0.3em 0 0.3em 1em;
+    Text-Decoration: None;
+    Margin: 0.3em 0;
+    Background: White;
+    Color: Rgb(36, 36, 36);
+    Border-Radius: 5px;
+    Box-Shadow: 0 0 10px Rgba(0, 0, 0, 0.062);
+    Transition: Background .4s;
+    }
+    .List A:hover{
+    Background: #FF5F6D;
+    Color: White;
+    }
+
+  
