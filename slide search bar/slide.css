@@ -1,0 +1,89 @@
+*{
+    Box-Sizing: Border-Box;
+}
+
+Html{
+Height: 100%;
+}
+Body{
+Width: 100%;
+Margin: 0;
+Font-Family: Poppins, Helvetica, Sans-Serif;
+Font-Weight: 400;
+Background:#0b0624;
+Color:white;
+}
+
+.Btn{
+    Position: Relative;
+    Display: Inline-Block;
+    Margin: 15px;
+    Padding: 15px 30px;
+    Text-Align: Center;
+    Font-Size: 16px;
+    Letter-Spacing: 1px;
+    Text-Decoration: None;
+    Color: #Ffffff;
+    Background:#76bcc4;
+    Border: None;
+    Border-Radius: 50px;
+    Cursor: Pointer;
+    Transition: Ease-Out 0.5s;
+    }
+    
+    
+    .Btn.Btn-Slide-1{
+    Box-Shadow: Inset 0 0 0 0 #303439;
+    }
+    .Btn.Btn-Slide-1:Hover{
+    Box-Shadow: Inset 0 200px 0 0 #303439;
+    }
+    
+    
+    .Btn.Btn-Slide-2{
+    Box-Shadow: Inset 0 0 0 0 #303439;
+    }
+    .Btn.Btn-Slide-2:Hover{
+    Box-Shadow: Inset 0 -100px 0 0 #303439;
+    }
+    
+    
+    .Btn.Btn-Slide-3{
+    Box-Shadow: Inset 0 0 0 0 #303439;
+    }
+    .Btn.Btn-Slide-3:Hover{
+    Box-Shadow: Inset 200px 0 0 0 #303439;
+    }
+    
+    .Btn.Btn-Slide-4{
+    Box-Shadow: Inset 0 0 0 0 #303439;
+    }
+    .Btn.Btn-Slide-4:Hover{
+    Box-Shadow: Inset -200px 0 0 0 #303439;
+    }
+    
+    
+    .Btn.Btn-Slide-5{
+    Box-Shadow: Inset 0 0 0 0 #303439;
+    }
+    .Btn.Btn-Slide-5:Hover{
+    Box-Shadow: Inset 0 0 0 25px #303439;
+    }
+
+
+    .Btn.Btn-Slide-6{
+        Box-Shadow: Inset 0 0 0 0 #303439;
+        }
+        .Btn.Btn-Slide-6:Hover{
+        Box-Shadow: Inset 0 0 0 25px #303439;
+        }
+        .Btn.Btn-Slide-7{
+            Box-Shadow: Inset 0 0 0 0 #303439;
+            margin-left:1170px;
+            border-radius: 10px;
+            margin-top:10px;
+            
+            }
+            .Btn.Btn-Slide-7:Hover{
+            Box-Shadow: Inset 0 0 0 25px #303439;
+            }
